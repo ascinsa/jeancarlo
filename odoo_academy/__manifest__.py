@@ -10,7 +10,7 @@
         - Courses
         - Sessions
         - Attendees
-    """
+    """,
     
     'author' : 'Odoo', 
     
@@ -28,5 +28,5 @@
     
     'demo' : [
         
-    ]
+    ],
 }

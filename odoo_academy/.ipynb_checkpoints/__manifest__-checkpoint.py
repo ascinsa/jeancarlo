@@ -10,5 +10,23 @@
         - Courses
         - Sessions
         - Attendees
-    """
+    """,
+    
+    'author' : 'Odoo', 
+    
+    'website' : 'https://www.odoo.com', 
+    
+    'category' : 'Trainning', 
+    
+    'version' : '0.1', 
+    
+    'depends' : ['base'], 
+    
+    'data' : [
+        
+    ],
+    
+    'demo' : [
+        
+    ],
 }
