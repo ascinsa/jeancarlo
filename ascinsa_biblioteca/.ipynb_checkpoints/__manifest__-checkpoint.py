@@ -3,7 +3,7 @@
 {
     'name' : 'Ascinsa Biblioteca', 
     
-    'summary' : """Gestión y Administración de una Biblioteca"""
+    'summary' : """Gestión y Administración de una Biblioteca""",
     
     'description' : """
         Modulo de Biblioteca que nos permitira:
