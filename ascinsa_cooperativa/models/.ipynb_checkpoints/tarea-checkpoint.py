@@ -5,4 +5,4 @@ from odoo import models, fields, api
 class tarea(models.Model):
     
     _name = 'cooperativa.tarea'
-    _description = 'Información de Tarea'
+    _description = 'Información de Tarea v1.0'
