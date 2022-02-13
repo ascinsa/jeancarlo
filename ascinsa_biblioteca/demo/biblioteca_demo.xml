@@ -1,0 +1,32 @@
+<?xml version="1.0" enconding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="biblioteca.libro" id="novelas_ejemplares">
+            <field name="titulo">Novelas Ejemplares</field>
+            <field name="autor">Miguel de Cervantes Saavedra</field>
+            <field name="editores"></field>
+            <field name="editorial">860 Spanish y Portuguese literatures</field>
+            <field name="anno">1914</field>
+            <field name="isbn">15562254889</field>
+            <field name="genero">Fiction</field>
+        </record>
+        <record model="biblioteca.libro" id="en_mi_verso_soy_libre">
+            <field name="titulo">En mi verso soy libre</field>
+            <field name="autor">Raquel Pulido Gomez, Jose Emilio Linares Garriga</field>
+            <field name="editores"></field>
+            <field name="editorial">España: Region Murcia, 2012</field>
+            <field name="anno">2012</field>
+            <field name="isbn">99446054889</field>
+            <field name="genero">Relatos</field>
+        </record>
+        <record model="biblioteca.libro" id="coplas_por_la_muerte_de_su_padre">
+            <field name="titulo">Coplas por la muerte de su padre</field>
+            <field name="autor">Jorge Manrique</field>
+            <field name="editores"></field>
+            <field name="editorial">Ed. librodot, 2003</field>
+            <field name="anno">1983</field>
+            <field name="isbn">15567784559</field>
+            <field name="genero">Poesia</field>
+        </record>
+    </data>
+</odoo>
