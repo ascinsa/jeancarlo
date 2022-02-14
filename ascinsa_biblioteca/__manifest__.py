@@ -6,7 +6,7 @@
     'summary' : """Gestión y Administración de una Biblioteca""",
     
     'description' : """
-        Modulo de Biblioteca que nos permitira:
+    Modulo de Biblioteca que nos permitira:
         - Administrar libros.
         - Administrar clientes.
         - Organizar alquileres.
