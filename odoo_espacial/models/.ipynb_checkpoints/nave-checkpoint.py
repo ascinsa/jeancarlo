@@ -4,7 +4,7 @@ from odoo import models, fields, api
 
 class nave(models.Model):
     
-    _name = 'academy.nave'
+    _name = 'espacial.nave'
     _description = 'Nave info'
     
     alto = fields.Integer('Alto', required = True)

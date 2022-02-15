@@ -6,10 +6,10 @@
     'summary' : """Administración de proyectos espaciales""", 
     
     'description' : """
-        Modulo Espacial nos permitirá administrar:
-        - Proyectos espaciales.
-        - Organizar Logistica.
-        - Planificación de viajes espaciales.
+    Modulo Espacial nos permitirá administrar:
+    - Proyectos espaciales.
+    - Organizar Logistica.
+    - Planificación de viajes espaciales.
     """, 
     
     'author' : 'Ascinsa', 
@@ -27,6 +27,6 @@
     ], 
     
     'demo' : [
-        
+        'demo/espacial_demo.xml',
     ],
 }
