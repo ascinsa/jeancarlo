@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
-        <record model="espacial.nave" id = "4545100">
+        <record model="espacial.nave" id = "A4545100">
             <field name = "alto">45</field>
             <field name = "ancho">45</field>
             <field name = "largo">100</field>
@@ -10,7 +10,7 @@
             <field name = "numero_pasajero">10</field>
             <field name = "activo">True</field>
         </record>
-        <record model="espacial.nave" id = "5050100">
+        <record model="espacial.nave" id = "A5050100">
             <field name = "alto">50</field>
             <field name = "ancho">50</field>
             <field name = "largo">100</field>
@@ -19,7 +19,7 @@
             <field name = "numero_pasajero">15</field>
             <field name = "activo">True</field>
         </record>
-        <record model="espacial.nave" id = "252550">
+        <record model="espacial.nave" id = "A252550">
             <field name = "alto">25</field>
             <field name = "ancho">25</field>
             <field name = "largo">50</field>
@@ -28,7 +28,7 @@
             <field name = "numero_pasajero">5</field>
             <field name = "activo">True</field>
         </record>
-        <record model="espacial.nave" id = "202045">
+        <record model="espacial.nave" id = "A202045">
             <field name = "alto">20</field>
             <field name = "ancho">20</field>
             <field name = "largo">45</field>
