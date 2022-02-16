@@ -23,7 +23,8 @@
     'depends' : ['base'], 
     
     'data' : [
-        
+        'security/espacial_security.xml',
+        'security/ir.model.access.csv',
     ], 
     
     'demo' : [

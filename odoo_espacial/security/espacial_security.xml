@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_espacial_admin" model="res.groups">
+        <field name="name">Espacial / Admin</field>
+    </record>
+    <record id="group_espacial_tripulacion" model="res.groups">
+        <field name="name">Espacial / Tripulacion</field>
+    </record>
+    <record id="group_espacial_general" model="res.groups">
+        <field name="name">Espacial / General</field>
+    </record>
+</odoo>

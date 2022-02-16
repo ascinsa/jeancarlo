@@ -1,0 +1,4 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+nave_admin,nave admin,model_espacial_nave,group_espacial_admin,1,1,1,1
+nave_tripulacion,nave tripulacion,model_espacial_nave,group_espacial_tripulacion,1,1,1,0
+nave_general,nave general,model_espacial_nave,group_espacial_general,1,0,0,0
