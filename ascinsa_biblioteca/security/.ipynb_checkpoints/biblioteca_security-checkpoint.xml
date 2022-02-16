@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="grupo_biblio_admin" model="res.groups">
+        <field name="name">Biblioteca / Bibliotecario</field>
+    </record>
+    <record id="grupo_biblio_cliente" model="res.groups">
+        <field name="name">Biblioteca / Cliente</field>
+    </record>
+</odoo>
