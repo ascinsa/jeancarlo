@@ -25,6 +25,7 @@
     'data' : [
         'security/espacial_security.xml',
         'security/ir.model.access.csv',
+        'views/espacial_menuitems.xml',
     ], 
     
     'demo' : [
