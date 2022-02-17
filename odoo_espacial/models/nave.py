@@ -7,6 +7,7 @@ class nave(models.Model):
     _name = 'espacial.nave'
     _description = 'Nave info'
     
+    descripcion = fields.Char('Descripcion', required = True)
     alto = fields.Integer('Alto', required = True)
     ancho = fields.Integer('Ancho', required = True)
     largo = fields.Integer('Largo', required = True)

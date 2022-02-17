@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="nave_view_form">
+            <field name="name">espacial.nave.formulario</field>
+            <field name="model">espacial.nave</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Nave">
+                    <sheet>
+                        <h1><field name="descripcion"/></h1>
+                        <group>
+                            <group>
+                                <field name="alto"/>
+                                <field name="ancho"/>
+                                <field name="largo"/>
+                            </group>
+                            <group>
+                                <field name="tipo_combustible"/>
+                                <field name="tipo"/>
+                                <field name="numero_pasajero"/>
+                                <field name="activo"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Descripcion">
+                                <field name="descripcion"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>                    
+            </field>
+        </record>
+        
+        <record model="ir.ui.view" id="nave_view_list">
+            <field name="name">espacial.nave.lista</field>
+            <field name="model">espacial.nave</field>
+            <field name="arch" type="xml">
+                <tree string="Lista de Naves">
+                    <field name="descripcion"/>
+                    <field name="alto"/>
+                    <field name="ancho"/>
+                    <field name="largo"/>
+                    <field name="tipo_combustible"/>
+                    <field name="tipo"/>
+                </tree>
+            </field>            
+        </record>
+        
+        <record model="ir.ui.view" id="nave_view_search">
+            <field name="name">espacial.nave.busqueda</field>
+            <field name="model">espacial.nave</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="descripcion"/>
+                    <field name="tipo_combustible"/>
+                    <field name="tipo"/>
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>
