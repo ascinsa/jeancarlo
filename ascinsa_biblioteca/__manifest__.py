@@ -25,6 +25,7 @@
     'data' : [
         'security/biblioteca_security.xml',
         'security/ir.model.access.csv',
+        'views/biblioteca_menuitems.xml',
     ], 
     
     'demo' : [

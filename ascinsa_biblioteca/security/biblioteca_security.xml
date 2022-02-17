@@ -6,4 +6,13 @@
     <record id="grupo_biblio_cliente" model="res.groups">
         <field name="name">Biblioteca / Cliente</field>
     </record>
+    <record id="only_active_modify" model="ir.rule">
+        <field name="name">Solo libros activos pueden ser modificados</field>
+        <field name="perm_read" eval="0"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">[('active', '=', True)]</field>
+        <field name="model_id" ref="model_biblioteca_libro"/>
+    </record>
 </odoo>
