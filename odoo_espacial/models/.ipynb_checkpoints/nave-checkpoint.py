@@ -1,6 +1,7 @@
 # *-* coding: utf-8 *-*
 
 from odoo import models, fields, api
+from odoo.exceptions import UserError, ValidationError
 
 class nave(models.Model):
     
@@ -29,3 +30,14 @@ class nave(models.Model):
                            )
     numero_pasajero = fields.Integer('Numero de Pasajeros', required = True)
     activo = fields.Boolean('Nave Activa?', default = True)
+    
+    @api.onchange('ancho')
+    def _onchange_ancho(self):
+        if self.ancho > self.largo:
+            raise UserError('El Ancho no puede ser mayor que el Largo de la nave.')
+    
+    @api.constrains('ancho')
+    def _check_ancho(self):
+        for record in self:
+            if record.ancho > record.largo:
+                raise ValidationError('El Ancho no puede ser mayor que el Largo de la nave, verifique.')
