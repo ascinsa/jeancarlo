@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="libro_view_form">
+            <field name="name">biblioteca.libro.formulario</field>
+            <field name="model">biblioteca.libro</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Libro">
+                    <sheet>
+                        <h1><field name="titulo"/></h1>
+                        <group>
+                            <group>
+                                <field name="autor"/>
+                                <field name="editorial"/>
+                                <field name="anno"/>
+                            </group>
+                            <group>
+                                <field name="isbn"/>
+                                <field name="genero"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Editores">
+                                <field name="editores"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>                    
+            </field>
+        </record>
+        
+        <record model="ir.ui.view" id="nave_view_list">
+            <field name="name">biblioteca.libro.lista</field>
+            <field name="model">biblioteca.libro</field>
+            <field name="arch" type="xml">
+                <tree string="Lista de Libros">
+                    <field name="titulo"/>
+                    <field name="autor"/>
+                    <field name="editorial"/>
+                    <field name="anno"/>
+                    <field name="genero"/>
+                </tree>
+            </field>            
+        </record>
+        
+        <record model="ir.ui.view" id="nave_view_search">
+            <field name="name">biblioteca.libro.busqueda</field>
+            <field name="model">biblioteca.libro</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="titulo"/>
+                    <field name="autor"/>
+                    <field name="editorial"/>
+                    <field name="genero"/>
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>
